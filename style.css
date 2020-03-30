@@ -1,0 +1,465 @@
+@font-face { font-family: Antic; src: url('Antic-Regular.ttf'); } 
+body
+	{
+	font-family:Antic;
+	font-size: 22px;	
+	background-image: url("bg.jpg");
+	background-repeat: round;
+	}
+
+div.header
+	{
+		height: 100px;
+		background-color: #000000;
+		width: 100%;
+		
+	}
+	*
+	{
+		margin: 0 auto;
+	}
+	
+div.logo
+	{
+		height:75px;
+		width: 300px;
+		float: left;
+		margin-left:50px;
+	}
+	*
+	{
+		margin:0 auto;
+	}
+img.logo
+	{
+		height:75px;
+		width: 300px;
+	}
+div.search
+	{
+		float: right;
+		margin-right: 50px;
+		margin-top: 25px
+		
+	}
+input.search_txt
+	{
+		font-family: Antic;
+		border-radius:4px;
+		
+		
+	}
+input.search_txt:active
+	{
+		border: 1px solid black;
+		
+	}
+input.search_submit
+	{
+		color:white;
+		background-color: gray;
+		border:0px;
+		padding: 4px;
+		border-radius:4px;
+	}
+input.search_submit:active
+	{
+		background-color:dimgray;
+	}
+div.menu	
+	{
+		width:100%;
+		height:30px;
+		background-color:black;
+	
+	}
+	*
+	{
+	margin: 0 auto
+	}
+div.button-container
+	{
+		height:50px;
+		margin-left: 350px;
+		float:left;
+	}
+	*
+	{
+		margin: 0 auto
+	
+	}
+div.results{
+	margin-top: 20px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: center;
+	background-color:white;
+	width: 50%;
+	border-radius:4px;
+}
+a.home-button{
+	margin-left: 50px;
+	
+}
+a.menu-button
+	{
+		padding-right:10px;
+		padding-left:10px;
+		border-right: 0.5px solid white;
+		color:white;
+		display:inline;
+		font-family: Antic;
+		font-size: 20px;
+		padding-bottom: 5px;
+		padding-top: 5px;
+		background-color: black;
+		text-decoration: none;
+		transition: background-color 0.5s;
+	}
+a.menu-button:hover
+	{
+		background-color:white;
+		color:black;
+	}
+	
+
+div.main
+	{
+		width: 66%;
+		font-family:Antic;
+		margin-top:20px;
+		padding: 20px;
+		margin-left:100px;
+		float:left;
+		margin-bottom: 200px;
+		text-align: justify;
+		background-color: white;
+		border-radius: 4px;
+	}
+	*
+	{
+		margin: 0 auto
+	}
+	div.main img{
+	
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	}
+	div.main iframe{
+	
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	
+	}
+	
+div.main blockquote{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+		
+	}
+div.language
+	{
+		width: 40px;
+		height: 20px;
+		background-color: #FFA500;
+		color: white;
+		line-height: 20px;
+		font-size: 20px;
+		font-family: Antic;
+		text-align: center;
+		margin-top: 10px;
+		margin-left: 50px;
+		display: list-item;
+		border-radius:0.5px;
+		transition: background-color 0.5s;
+		list-style-type: none;
+	}
+	*
+	{
+		margin: 0 auto;
+	}
+div.language:hover
+	{
+		background-color: #F0B500
+	}
+div.language:active
+	{
+		background-color: ##AAAA00
+	}
+div.sidebar
+	{
+		width:120px;
+		background-color:black;
+		font-family:Antic;
+		color: white;
+		float: left;
+		margin-left: 50px;
+		margin-top: 20px;
+		display: list-item;
+		margin-bottom: 100px;
+		border-radius: 4px;
+		list-style-type: none;
+	}
+	*
+	{
+		margin: 0 auto
+	}
+	
+div.instlink
+	{
+		width:100px;
+		height:100px;
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+img.instlink
+	{
+		width:100px;
+		height:100px
+	}
+h3.TitleContent
+	{
+		font-size:50px;
+		font-family:Antic;
+		color:#AB0000;
+	}
+h2.SubtitleContent
+	{
+		font-size: 26px;
+		margin-top: 20px;
+		margin-bottom:20px;
+		
+	}
+p.Content
+	{
+		font-size:22px;
+		font-family: Antic;
+		line-height:35px;
+		font-weight: lighter;
+	}
+.main a{
+	color: #559600;
+	text-decoration: none;
+	
+	
+}
+.main a:active{
+	color: #557000;	
+}
+img.stdPic
+	{
+		height:240px;
+		width: 427px;
+		margin-top: 20px;
+		border-radius: 4px;
+	}
+
+footer.Footer
+	{
+		height: 50px;
+		background-color: black;
+		position: fixed;
+		bottom: 0px;
+		left: 0px;
+		width:100%;
+
+		
+	}
+	*
+	{
+		margin: 0 auto;
+	}
+div.social
+	{
+		height: 40px;
+		width: 40px;
+		margin: 5px;
+		float: left;
+		
+	}
+img.social
+	{
+		height:40px;
+		width:40px;	
+	}
+div.logo2
+	{
+		height: 40px;
+		width: 160px;
+		margin-bottom: 20px;
+	}
+img.logo2
+	{
+		height:40px;
+		width: 160px;
+		margin-bottom:20px;
+	}
+
+b.tm
+	{
+		font-family: Antic;
+		color: gray;
+		float:right;
+		margin-right: 40px;
+		position: absolute;
+		bottom: 0px;
+		line-height: 50px;
+		right: 40px;
+		
+	}
+	@media screen and  (max-width: 884px){
+body{
+	font-size: 16px;
+	background-image: url("bg.jpg");
+	}
+div.header
+	{
+	height: 100px;
+	background-color: #000000;
+	width: 100%;
+	display: inline-block;
+	float: none;
+	}
+img.logo{
+	width: 150px;
+	height: 37.5px;
+	
+}
+div.logo{
+	width:150px;
+	height:37.5px;	
+	margin-left: auto;
+	margin-right: auto;
+	float: none;
+	}
+div.search{
+	margin-top: 28px;
+	margin-left: 20px;
+	float:none ;
+	
+}
+input.search_txt
+	{
+	font-family: Antic;
+	border-radius:4px;
+	height: 50%;
+	width: 50%;
+	font-size: 10px;
+	}
+input.search-submit{
+	font-size: 10px;
+	padding: 0px;
+}
+a.home-button{
+	
+	margin-left: none;
+}
+a.menu-button
+{
+	float:none;
+	width:100%;
+	margin: 0px;
+	display: inline-block;
+	
+	
+}
+a.menu-button:hover
+{
+	color:black;
+	background-color:white;
+	
+}
+div.results{
+	margin-top: 200px;
+	
+}
+.main iframe{
+transform: scale(0.5 , 0.5);
+margin-bottom: 5px;
+margin-top: 5px;
+}	
+.main img{
+	width: 70%;
+	height:70%;
+}
+div.sidebar{
+	margin-top:10px;
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 10px;
+}
+
+div.main{
+		width:90%;
+		margin-left:0px;
+		margin-top: 0px
+	}
+div.language{
+		float:none;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top:150px;
+	}
+h3.TitleContent
+	{
+		font-size:25px;
+		
+	}
+h2.SubtitleContent
+	{
+		font-size: 20px;
+		
+	}
+p.Content
+	{
+		font-size:16px;
+	}
+body li{
+	margin-top: 5px;
+	}
+div.social{
+	height:20px;
+	width: 20px;
+}
+img.social
+	{
+		height:20px;
+		width:20px;	
+	}
+div.logo2{
+	height: 20px;
+	width: 80px;
+	float: left;
+	margin: 5px;
+}
+img.logo2{
+	height:20px;
+	width:80px;
+	
+}
+b.tm{
+	float:right;
+	margin-right: 0px;
+	right: 10px;
+	font-size: 3vw;
+	bottom: -10px;
+	
+}
+footer.Footer
+	{
+		
+		height: 30px;
+	}
+	
+	}
+	

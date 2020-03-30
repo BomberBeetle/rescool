@@ -1,0 +1,32 @@
+form.contact
+	{
+		width:inherit;
+		margin-top:40px;
+	}
+input.contact_email
+	{
+		display:list-item;	
+		float:left;
+		font-family:Antic;
+	}
+textarea.contact_msg
+	{
+		height:400px;
+		width:inherit;
+		resize:none;
+		font-family:Antic;
+	}
+input.contact_submit
+	{		
+		color:white;
+		background-color:#BBBBBB;
+		font-family:Antic;
+		width: 100px;
+		height:50px;
+		border:0px;
+		margin-top: 20px;
+	}
+input.contact_submit:active
+	{
+		background-color:#AAA;
+	}
